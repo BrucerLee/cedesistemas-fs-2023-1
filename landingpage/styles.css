@@ -1,0 +1,111 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
+*,::after,::before{
+    box-sizing: border-box;
+}
+body{
+   
+    margin:0;
+    padding: 0;
+    border: 1px solid red;
+    background :url("https://landing.zytheme.com/siena/assets/images/background/bg-1.png") ;
+    background-position: 0;
+    background-repeat: no-repeat; 
+    font-family: 'lato',sans-serif;
+}
+.container{
+    border: 1px solid green;
+    padding: 5px 70px;
+
+}
+header{
+    
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.header section{
+    /*flex: 3;*/
+}
+nav{
+   
+   /*display: flex;*/
+    flex:1;
+    /*justify-content: flex-end;*/
+}
+nav ul{
+
+    padding: 0;
+    display: flex;
+    justify-content: flex-end
+}
+nav ul li{
+    list-style: none;
+  
+    margin: 0 20px;
+}
+nav a{
+    color:#6262a0 ;
+    text-decoration: none;
+    font-size: 1em;
+}
+nav a:hover{
+    color:#664ffa;
+}
+h1 {
+    color:#6262a0;
+    font-size: 3em;
+    font-weight: 700;
+}
+p{
+    color: #abc7ab;
+}
+.form-container{
+    background-color: #fff;
+    
+    padding: 10px 40px;
+    -webkit-box-shadow: 6px 7px 5px 0px rgba(153,153,153,1);
+    -moz-box-shadow: 6px 7px 5px 0px rgba(153,153,153,1);
+    box-shadow: 6px 7px 5px 0px rgba(153,153,153,1);
+    border-radius: 5px;
+}
+.form-container h3{
+    color:#6262a0;
+    font-size: 1.5em;
+    text-align: center;
+}
+.field-input{
+   margin-bottom: 9px;
+}
+.field-input input{
+    width: 100%;
+    background-color: #f7f6ff;
+    color:#222;
+    border: 1px solid #ceb4ea;
+    border-radius: 5px;
+    font-size: 0.9m;
+    outline: none;
+    padding: 6px 6px 6px 20px;
+}
+.field-input label{
+    color: #664ffa;
+    font-size: 0.95em;
+    margin-bottom: 6px;
+    display: block;
+}
+.btn-primary{
+    width: 100%;
+    background-color: #664ffa;
+    border-radius: 6px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 10px;
+    border: none;
+    cursor: pointer;
+
+}
+.btn-primary:hover{
+    background-color: #3d1df9;
+}
