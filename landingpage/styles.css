@@ -7,19 +7,20 @@ body{
    
     margin:0;
     padding: 0;
-    border: 1px solid red;
+    border: 1px solid blue;
     background :url("https://landing.zytheme.com/siena/assets/images/background/bg-1.png") ;
     background-position: 0;
     background-repeat: no-repeat; 
     font-family: 'lato',sans-serif;
 }
 .container{
-    border: 1px solid green;
+   
     padding: 5px 70px;
+    margin: 50px;
+   
 
 }
 header{
-    
     display: flex;
 }
 .logo{
@@ -64,7 +65,7 @@ p{
 }
 .form-container{
     background-color: #fff;
-    
+   
     padding: 10px 40px;
     -webkit-box-shadow: 6px 7px 5px 0px rgba(153,153,153,1);
     -moz-box-shadow: 6px 7px 5px 0px rgba(153,153,153,1);
@@ -108,4 +109,42 @@ p{
 }
 .btn-primary:hover{
     background-color: #3d1df9;
+}
+.container_1{
+   
+    display: flex;
+    margin: 150px 0px;
+
+}
+.paragraph{
+    padding: 20px 20px;
+    flex:1;
+    
+}
+.form_user{
+    display: flex;
+    flex:1; /* Le da un peso en proporción al espacio del flex*/
+    justify-content: flex-end;
+}
+.container3{
+    display: flex;
+    align-content: center;
+}
+.imagen{
+
+    align-content:center;
+    margin: 0px 175px;
+}
+
+.title2{
+    display: flex;
+    margin: 50px 300px;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin: 0px 60px;
 }
